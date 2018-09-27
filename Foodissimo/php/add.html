@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projet</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="../css/design.css">
+		<link rel="stylesheet" type="text/css" href="../css/nav.css">
+		<link rel="stylesheet" type="text/css" href="../css/form.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="home.html">Accueil</a></li>
+				<li><a href="add.html">Ajouter un produit</a></li>
+				<li><a href="search.html">Rechercher un produit</a></li>
+			</ul>
+		</nav>
+		<div id="all">
+			<div id="content2">
+				<h1>Ajouter un produit</h1>
+				<form>
+					<fieldset>
+						<legend>Libellé du produit</legend>
+						<input type="text" placeholder="Nom du produit"/>
+					</fieldset>
+					<fieldset>
+					<legend>Composants</legend>
+					<table>
+						<thead>
+							<tr>
+								<th width="80%">Nom du composant</th>
+								<th>Quantité</th>
+							</tr>
+						</thead>
+						<tbody id="addTable">
+							<tr id="1">
+								<td><input type="text" placeholder="vide"/></td>
+								<td><input type="text" placeholder="0"/></td>
+							</tr>
+							<tr id="2">
+								<td><input type="text" placeholder="vide"/></td>
+								<td><input type="text" placeholder="0"/></td>
+							</tr>
+							<tr id="3">
+								<td><input type="text" placeholder="vide"/></td>
+								<td><input type="text" placeholder="0"/></td>
+							</tr>
+						</tbody>
+					</table>
+					<button type="button" id="addComponentButton">Ajouter un composant</button><button type="button" id="removeComponentButton">Retirer un composant</button>
+					</fieldset>
+					<input type="submit" value="Valider"/>
+				</form>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/add.js"></script>
+	</body>
+</html>

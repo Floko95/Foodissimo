@@ -1,0 +1,73 @@
+nav{
+	width: 100%;
+	background-color: #FFFFFF;
+	font-size: 23px;
+	text-align: center;
+	border-bottom: 3px solid #051020;
+	color: #797979;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li{
+	float: left;
+	list-style-type: none; /* Suppression des puces */
+	height: 42px;
+}
+
+nav a{
+	display: inline-block;
+	padding: 5px 30px;
+	color: #797979;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #0070BB;
+}
+
+nav a:active{
+	color: #0070FF;
+}
+
+nav button{
+	width: 50px;
+	height: 42px;
+	right: 0px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	border-radius: 0px;
+	background-color: #fff;
+	background-image: url(../img/exit-door.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+nav button:hover{
+	border: 0px;
+	background-color: #fff;
+	background-image: url(../img/exit-door-hover.png);
+}
+
+/*
+nav input[type="search"]{
+	box-sizing: border-box;
+	width: 240px;
+	height: 50px;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding-left: 10px;
+	background: #DDDDDD;
+	font-size: 20px;
+	color: #0070BB;
+	border-left: 10px solid #0070BB;
+	border-radius: 10px 0px 0px 10px;
+}
+*/

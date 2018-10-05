@@ -1,0 +1,32 @@
+table{
+	box-sizing: border-box;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.tdLeft{
+	width: 75%;
+}
+
+.tdProductLeft{
+	box-sizing: border-box;
+	width: 230px;
+}
+
+.tdProductRight{
+	box-sizing: border-box;
+	width: 70px;
+}
+
+.tdModifyLeft{
+	width: calc(80% - 40px);
+}
+
+.tdModifyMiddle{
+	width: 20%;
+}
+
+.tdModifyRight{
+	width: 40px;
+}

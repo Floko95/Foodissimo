@@ -1,0 +1,100 @@
+/* Barre de navigation du haut */
+
+nav{
+	width: 100%;
+	background-color: #102030;
+	font-size: 23px;
+	text-align: center;
+	border-bottom: 3px solid #051020;
+	color: #797979;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li{
+	float: left;
+	list-style-type: none; /* Suppression des puces */
+	height: 42px;
+}
+
+nav a{
+	display: inline-block;
+	padding: 5px 30px;
+	color: #797979;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #0070BB;
+}
+
+nav a:active{
+	color: #0070FF;
+}
+
+nav button{
+	width: auto;
+	height: 42px;
+	padding: 0px 30px;
+	background-image: url(../img/hamburger-menu.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+nav button:hover{
+	background-image: url(../img/hamburger-menu-hover.png);
+}
+	
+
+/* Barre de navigation de gauche */
+
+
+#left ul{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+#left li{
+	box-sizing: border-box;
+	width: 100%;
+	list-style-type: none;
+}
+
+#left li button{
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	padding: 5px 15px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-variant: small-caps;
+	font-size: 20px;
+	text-align: left;
+	color: #797979;
+	outline: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 10px solid #ddd;
+	border-right: 75px solid #eee;
+	border-radius:0px;
+}
+
+#left li button:hover{
+	cursor: pointer;
+	color: #0070bb;
+	border-right: 0px solid #0070bb;
+	transition: border-right 0.75s;
+}
+
+#left li button:active{
+	color: #0070ff;
+}
